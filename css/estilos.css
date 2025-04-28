@@ -1,0 +1,263 @@
+body{
+	/* background-image es para imagen de fondo */
+	      background-image:url("../css/imagenes/fd.JPG");
+		  /* font es para la tipografia de la letra */
+          font-family:"Tahoma","Lucida Console","Courier New";
+		  color:#840860;
+		  /* font-size es para el tamaño de las letras */
+		  font-size:20px;
+		   
+		  
+}
+hr{
+	/* border es para la linea
+	de grosor en pixeles, tipo linea, tipo color*/
+	border:3px solid #96039D;
+	/* widrh es paara el ancho de la linea*/
+	width:80%;
+	/* border-radiuses para BORDE REDONDO ENN LA LINEA*/
+	border-radius:5px;
+}
+p{
+	text-align:justify;
+	font-size:27px;
+	color:#840860;
+	/*font-weight es ´para las negritas*/
+	font-weight:bold;
+	/*line-height: es para el interlineado*/
+	line-height:1.5;
+	/*letter-spacing: es parar el espaciado entre las letras*/
+	
+}
+table,tr,td{
+	bordeR:1px solid #28B563;
+	border-spacing:0px;
+	background-color:#CF7BCF;
+	font-size:20px;
+	color:#840860;
+	text-align:center;
+	font-weight:bold;
+	text-align:center;
+}
+.pie{
+	text-align:center;
+	font-size:10px;
+	color:#F1C40F;
+	font-weight:bold;
+}
+.encabezado{
+text-align:enter;
+font-size:35px;
+font-weight:bold;
+}
+/*divs*/
+div#ppag{
+	width:100%;
+	height:75px;
+	background-image:linear-gradienf(#abb2b9,#aab7b8);
+}
+div#ppag{
+	width:100%;
+	height:100px;
+	background-image:linear-gradient(#edbb99, #f9e79f);
+}
+/*carousel para imagenes*/
+.carrousel{
+	width:600px;
+	margin:auto;
+	overflow:hidden;
+	box-sizing:border-box;
+}
+.contecarrousel{
+	width:600%px;
+	height:400px;
+	overflow:hidden;
+	box-sizing:border-box;
+}
+.itemcarrousel{
+	position:relative;
+	width:100%;
+	heigh:100%;
+	box-sizing:border-box;
+}
+.itemcarrouseltarjeta{
+	width:100%;
+	height:100%;
+	box-sizing:border-box;
+}
+.itemcarrouselarrows{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	height:100%;
+	width:100%;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	padding:20px;
+	box-sizing:border-box;
+}
+.itemcarrouselarrows> ¡:hove{
+	cursor:pointer;
+}
+.contecarrouselcontroller{
+	width:100%
+	display:flex;
+	justify-content:space-evely;
+}
+.contecarrouselcontroller> a{
+	text-decoration:none;
+	font-size:32px;
+	color:grey;
+}
+.itemcarrouselcontroller> a> ¡{
+	color:white;
+}
+/*Cajas para productos*/
+.caja{
+	height:300px;
+	width:250px;
+	background:#237de1;
+	border:1px solid #237de1;
+	margin:5px;
+	text-align:center;
+	display:inline-block
+}
+.caja:hover{
+	box-shadow:0 0 10px blue;
+	transform:scale(1.3);
+	
+}
+.caja-texto{
+	padding-top:5px;
+	padding-bottom:5px;
+	font-size:20px;
+	color:#101111;
+	font-weight:bold;
+}
+.texto-adicional{
+	padding-top:5px;
+	font-size:15px;
+	
+}
+.descripcion{
+	width:600px;
+	margin:auto;
+	box-sizing:border-box;
+	background:#E67E22;
+	font-size:20px;
+	color:#E67E22;
+	font-weight:left;
+	
+}
+.cajas{
+	height:310px;
+	width:400px;
+	background:#237de1;
+	border:1px solid #237de1;
+	margin:5px;
+	text-align:center;
+	display:inline-block
+	}
+/*menu de navegacion*/
+.navegacion{
+	display:flex;
+	height:100px;
+}
+.navegacion-item{
+	flex:1;
+	color:#1c2833;
+	font-weight:bold;
+	font-size:25px;
+	display:flex;
+	transition:flex-grow 0.2s;
+	justify-content:center;
+	align-itens:center;
+}
+.navegacion-item:hover{
+	flex-grow:10;
+}
+.navegacion-titulo{
+	margin:0;
+	transform:rotate(-90deg);
+	transition:transform 0.2s 0.2s;
+	font-size:15px;
+	color:blue;
+}
+.navegacion-item:hover.navegacion-titulo{
+	transform:rotate(0):
+}
+.navegacion-item:nth-child(1){
+	background:#85c1E9;
+}
+.navegacion-item:nth-child(2){
+	background:#85c1E9;
+}
+.navegacion-item:nth-child(3){
+	background:#85c1E9;
+}
+.navegacion-item:nth-child(4){
+	background:#85c1E9;
+}
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
